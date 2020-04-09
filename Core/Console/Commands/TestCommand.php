@@ -2,7 +2,7 @@
 
 namespace Core\Console\Commands;
 
-use App\User\Repositories\UserRepository;
+use App\User\Repositories\UserInfoRepository;
 use Illuminate\Console\Command;
 
 class TestCommand extends Command
@@ -12,7 +12,7 @@ class TestCommand extends Command
 
     public function handle()
     {
-        $users = (new UserRepository())
+        $users = (new UserInfoRepository())
             ->whereNotNull('id')
             ->entityCollection()
             ->getEntities();

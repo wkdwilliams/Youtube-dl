@@ -11,4 +11,8 @@
 |
 */
 
-$router->get('/', '\App\User\Controllers\UserController@test');
+// Homepage
+$router->get('/', '\App\Main\Controllers\Home@homePage');
+
+// URL retriever
+$router->post('/get', '\App\Main\Controllers\Home@getURL');

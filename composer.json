@@ -6,9 +6,13 @@
     "type": "project",
     "require": {
         "php": "^7.4.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "athlon1600/youtube-downloader": "^2.0",
         "illuminate/redis": "^7.3",
         "laravel/lumen-framework": "^7.0",
-        "predis/predis": "^1.1"
+        "predis/predis": "^1.1",
+        "twig/twig": "^2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.9.1",

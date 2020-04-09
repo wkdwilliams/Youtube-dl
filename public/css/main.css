@@ -1,0 +1,29 @@
+#yt-logo{
+    width: 40px;
+}
+
+#yt-text{
+    position: relative;
+    top: 2px;
+}
+
+#content-container{
+    margin-top: 20px;
+}
+
+#url-form{
+    margin: auto;
+    width: 95%;
+    position: relative;
+    top: 9px;
+}
+
+#url-download-video{
+    display: none;
+}
+
+video {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
